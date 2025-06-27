@@ -65,7 +65,7 @@ When the program starts, the user selects the input source. Depending on the cho
 
 1. *Text File*: The file path is taken from the user. The .txt file is read and passed to the summarization function.
 2. *Manual Input*: The user can paste or type text directly into the terminal, which is captured line by line until an empty line is entered.
-3. *Web Link*: The user provides a URL. The script uses requests and BeautifulSoup to extract paragraph content (<p> tags) from the webpage.
+3. *Web Link*: The user provides a URL. The script uses requests and BeautifulSoup to extract paragraph content (*<p>* tags) from the webpage.
 
 After collecting the text, it’s preprocessed and split into smaller chunks to prevent token limits from being exceeded. Each chunk is then summarized using Hugging Face’s summarization pipeline. The individual summaries are combined to create the final result. 
 
