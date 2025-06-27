@@ -3,7 +3,7 @@
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/text-summarization-tool.git
+git clone https://github.com/HR-Fatheen/text-summarization-tool.git
 cd text-summarization-tool
 
 ### Step 2: Create and Activate a Virtual Environment
