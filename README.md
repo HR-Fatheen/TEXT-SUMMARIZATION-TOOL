@@ -73,3 +73,6 @@ The BART model performs abstractive summarization, which means it rewrites and p
 
 To handle lengthy articles, the script breaks down the input into manageable pieces and processes each separately, ensuring compatibility across different text sizes.
 
+## Example Output
+
+![Image](https://github.com/user-attachments/assets/2960dd92-a179-43d8-817b-8f28dd49951f)
